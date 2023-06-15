@@ -51,18 +51,4 @@ def text_answer(message):
 
 if __name__ == "__main__":
     target = bot.infinity_polling()
-
-    # if '@neysvi_bot' in message.text and message.from_user.id in id_users:
-    #     chatgpt = make_request(message)  # Вызов функции с ChatGPT и отправка туда твоего сообщения
-    # bot_mess_id = bot.reply_to(message, chatgpt).message_id   # ответ конкретному пользователю
-    # bot_mess_id = bot.send_message(message.chat.id, chatgpt).message_id
-    # bot.forward_message(message.from_user.id, message.chat.id, bot_mess_id)
-    # bot.forward_message(message.from_user.id, message.chat.id, message.message_id)
-    # bot.send_message(message.chat.id, chatgpt)  # отправка сообщения с ответом chatgpt в чат
-    # print(message)
-
-    # @bot.message_handler(content_types=["voice"])
-    # def voice_answer(message):
-    #     chatgpt = make_request(message)
-    #     # print(message.text)
-    #     bot.reply_to(message, chatgpt)
+    
